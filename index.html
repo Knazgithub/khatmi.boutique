@@ -1,0 +1,527 @@
+<!DOCTYPE html>
+  <title>KHATMI BOUTIQUE</title>
+  
+ 
+
+<head>   
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Baskervville+SC&family=Nerko+One&family=New+Amsterdam&display=swap" rel="stylesheet">
+</head>
+
+
+<body>
+
+        
+        
+    <style>
+        *{
+            box-sizing: border-box;
+            margin: 0;
+            
+        }
+.products{
+    text-align:center ;
+    margin: 50px 0;
+    color: black;
+    
+    background-size: cover;
+    background-position: 100%;
+    padding: 10px 50px;
+
+}
+.products{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(320px,1fr));
+}
+
+
+
+
+
+.TEXT {
+    text-align: center;
+    color: rgb(0, 0, 0);
+    animation: fadeIn 5s;
+  -webkit-animation: fadeIn 12s;
+  -moz-animation: fadeIn 12s;
+  -o-animation: fadeIn 12s;
+  -ms-animation: fadeIn 12s;
+    
+}
+
+
+.products .card{
+    width: 200px;
+    background: rgb(202, 202, 202);
+    box-shadow: 50px 20px 20px rgba(0, 0, 0, 0.3);
+    border-radius: 5px;
+    padding: none;
+    margin-bottom: 20px;
+}
+.products .card img{
+    margin: 0px;
+    height: 200px;
+    width: 100%;
+    border-radius: 10px;
+    margin-right: 10;
+
+}
+.products .card .desc{
+    padding: 5px 20px;
+    opacity:0.8 ;
+    font-weight: 900;
+}
+.products .card .title{
+    font-weight: 900;
+    padding: 0px 20px;
+    font-size: 20px;
+}
+.products .card .box{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+.products .card .box .price{
+    color: rgb(207, 30, 30);
+    font-size: 20px;
+    font-weight: bold;
+}
+.products .card .box .btn{
+    font-size: 13px;
+    color: red;
+    padding: 10px 18px;
+    font-weight: 900;
+    border: 1px solid ;
+
+
+}
+.button {
+  position: relative;
+  background-color: #1e93d6;
+  border: none;
+  font-size: 10px;
+  color: #f8f5f5;
+  padding: 20px;
+  width: 100px;
+  text-align: center;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+  text-decoration: none;
+  overflow: hidden;
+  cursor: pointer;
+  border-radius: 40px;
+}
+
+
+
+
+
+.btn{
+    background-color: white;
+}
+
+
+body{
+    background: rgb(255, 255, 255);
+    height: 100vh;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+   
+    
+}
+    a{
+        text-decoration: none;
+        color:black ;
+    }  
+        header{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin: 20px;
+            padding:none;
+        }
+        header .logo{
+            width:100px;
+            font-size: 1.8em;
+            text-transform: uppercase;
+        }
+        header ul{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            list-style: none;
+           
+        }
+        header ul li{
+            margin-right: 30px;
+
+        }
+        header ul li a{
+            padding: 10px 10px;
+            border-radius: 20px;
+
+        }
+        header ul li a:hover , .active{
+            background-color: rgb(21, 119, 175);
+            color: rgb(0, 0, 0);
+        }
+        .col-3 img{
+            width: 400px;
+            
+        }
+        .col-3 { animation: fadeIn 5s ; }
+        @keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+
+        .col-3  {
+            padding: 10px;
+           
+
+
+            
+        }
+        .small-container{
+           padding: 50px;
+            margin-top:50px;
+           padding-left: 13px;
+            display: flex;
+            
+           
+        }
+        .small-container .row{
+            display: flex;
+            justify-content: space-between;
+            
+           
+        }
+        .col-4 { animation: fadeIn 5s ; }
+        .col-4{
+        
+            padding: 30px;
+            min-width: 200px;
+            margin-bottom: 50px;
+
+
+
+        }
+
+        .col-4 img{
+              width: 100%;
+
+        }
+       .col-3 img{
+        width: 100%;
+       }
+
+         
+        
+        .categories{
+            background-color: rgb(176, 180, 187);
+        }
+        .row{
+            background-color: rgb(203, 214, 203);
+        }
+        .obx{
+            padding: 10px;
+        }
+        .title{
+            text-align: center;
+            margin: 0;
+            position: relative;
+            line-height: 60px;
+            color: #555;
+
+        }
+        .col-4 .pri{
+            margin: 10px;
+        }
+    </style>
+    <header>
+    
+           
+            <h1 class="logo">KHATMI BOUTIQUE</h1>
+            <ul>
+                <li><a href="#" class="active">HOME</a></li>
+                <li><a href="women.html">WOMEN</a></li>
+                <li><a href="contact.html">Contact us</a></li>
+                
+            </ul>   
+    
+    
+    </header>
+
+
+
+    
+
+    
+    
+
+    <section>
+        
+    
+
+    
+    </section>
+    <nav>
+    
+    <section>
+      <div class="categories">
+        <div class="small-container">
+            <div class="row">
+                <div class="col-3">
+                     <img src="received_414078774680910_20240327_212829971.jpg" >
+                </div>
+                <div class="col-3">
+                    <img src="received_2730493293771950_20240327_213721260.jpg">  
+                </div>
+                <div class="col-3">
+                    <img src="received_2131337010560455_20240328_145331713.jpg">
+                    
+                </div>
+            </div>
+      
+        </div>
+        
+     </div>
+     <h2 class="TEXT">NEW COLLECTION</h2>
+    <div class="small-container">
+        
+        <div class="row">
+            <div class="col-4">
+            <img src="received_785823943028936_20240327_213918227.jpg">
+            <div>
+            <h4 class="title">red pp</h4>
+            <div class="pri">65dt</div>
+            <button class=" button">buy now</button>
+            </div>
+            </div>
+            <div class="col-4">
+                <img src="received_946174053689497_20240328_14571622.jpg">
+                <h4 class="title">red pp</h4>
+                <div class="pri">65dt</div>
+                <button class=" button">buy now</button>
+                </div>
+        </div>
+
+    </div>
+   
+    
+    </section>
+    
+    </nav>
+    <h1 class="TEXT">our latest products:</h1>
+    <section class="sec">
+        <div class="products">
+            <div class="card">
+                <div class="img"><img src="c:\Users\knazr\Desktop\khatmi boutique project\KHATMI BOUTIQUE\received_2131337010560455_20240328_145331713.jpg" height="200px" width="200px"></div>
+                <div class="desc">women</div>
+                <div class="title">lady dress</div>
+                <dic class="box">
+                    <div class="price">50dt</div>
+                    <button class="button">buy now</button>
+                   
+            
+            
+
+
+            </div>
+            <div class="card">
+                <div class="img"><img src="c:\Users\knazr\Desktop\khatmi boutique project\KHATMI BOUTIQUE\received_946174053689497_20240328_14571622.jpg" height="200px" width="200px"></div>
+                <div class="desc">women</div>
+                <div class="title">lady dress</div>
+                <dic class="box">
+                    <div class="price">50dt</div>
+                    <button class="button">buy now</button>
+                   
+            
+            
+
+
+            </div>
+            <div class="card">
+                <div class="img"><img src="c:\Users\knazr\Desktop\khatmi boutique project\KHATMI BOUTIQUE\received_785823943028936_20240327_213918227.jpg" height="200px" width="200px"></div>
+                <div class="desc">women</div>
+                <div class="title">lady dress</div>
+                <dic class="box">
+                    <div class="price">50dt</div>
+                    <button class="button">buy now</button>
+                   
+            
+            
+
+
+            </div>
+            <div class="card">
+                <div class="img"><img src="c:\Users\knazr\Desktop\khatmi boutique project\KHATMI BOUTIQUE\received_1116449479498540_20240327_213127833.jpg" height="200px" width="200px"></div>
+                <div class="desc">women</div>
+                <div class="title">lady dress</div>
+                <dic class="box">
+                    <div class="price">50dt</div>
+                    <button class="button">buy now</button>
+                   
+            
+            
+
+
+            </div>
+            <div class="card">
+                <div class="img"><img src="c:\Users\knazr\Desktop\khatmi boutique project\KHATMI BOUTIQUE\432769670_1194878481576024_4335522066460479528_n.jpg" height="200px" width="200px"></div>
+                <div class="desc">women</div>
+                <div class="title">lady dress</div>
+                <dic class="box">
+                    <div class="price">50dt</div>
+                    <button class="button">buy now</button>
+                   
+            
+            
+
+
+            </div>
+            <div class="card">
+                <div class="img"><img src="c:\Users\knazr\Desktop\khatmi boutique project\KHATMI BOUTIQUE\received_2730493293771950_20240327_213731843.jpg" height="200px" width="200px"></div>
+                <div class="desc">women</div>
+                <div class="title">lady dress</div>
+                <dic class="box">
+                    <div class="price">50dt</div>
+                    <button class="button">buy now</button>
+                   
+            
+            
+
+
+            </div>
+        </div>
+
+
+    </section>
+
+
+    
+
+
+</body>
+<footer>
+    <div class="raw">
+        <div class="col">
+            <h4>copyright</h4>
+            <p>thanks</p>
+        </div>
+        <div class="col">
+       <h3>our shop</h3>
+       <p></p>
+       <p></p>
+       <p></p>
+       <p></p>
+       <p class="email-id">knazrasslen@gmail.com</p>
+       <h4>20334980</h4>
+       
+
+        </div>
+        <div class="col">
+            <h3>links</h3>
+            <ul>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="index.html">WOMEN</a></li>
+                <li><a href="index.html">CONTACT US</a></li>
+                
+
+            </ul>
+            
+        </div>
+        <div class="col">
+            <h3>Newsletter</h3>
+            <div class="social-icons">
+                <a href="index.html"></a><img src="communication.png" height="20px">
+               
+                
+                
+            </div>
+
+            
+            
+        </div>
+    </div>
+  <hr>
+  <p class="copyright">copyright</p>
+
+</footer>
+<style>
+    footer{
+        width: 100%;
+        bottom:0 ;
+        background: linear-gradient(rgb(117, 187, 214),black);
+        
+
+        padding: 100px 0 30px;
+        border-top-left-radius: 125px; 
+        color: rgb(255, 245, 245);
+        font-size: 13px;
+        line-height: 20px;
+
+    }
+    .raw{
+        width:85%;
+        margin: auto;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: flex-start;
+        justify-content: space-between;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+    }
+    .col{
+        flex-basis: 25%;
+        padding: 10px;
+
+
+    }
+    .col h3{
+        width: fit-content;
+        margin-bottom: 40px;
+        position: relative;
+    }
+    .email-id{
+        width: fit-content;
+        border-bottom: 1px solid #ccc;
+        margin: 20px;
+    }
+    ul li{
+        list-style: none;
+        margin-bottom: 12px;
+    }
+    ul li a{
+        text-decoration-line: none;
+    }
+    hr{
+     width: 90%;
+     border: 0;
+     border-bottom: 1px solid #ccc;
+     margin: 20px auto;
+
+    }
+    .copyright{
+        text-align: center;
+
+    }
+   
+    .card img {
+	-webkit-transform: scale(1);
+	transform: scale(1);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+.card :hover img {
+	-webkit-transform: scale(1.3);
+	transform: scale(1.3);
+}
+
+
+    
+
+</style>
